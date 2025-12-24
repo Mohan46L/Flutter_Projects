@@ -174,7 +174,7 @@ class winnerPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       //Inorder to change the background color according to the player who wins we can use ternary operator
-      backgroundColor: player == "Player A wins" ? Colors.redAccent : Colors.blueAccent,
+      backgroundColor: player == "Player A Wins" ? Colors.redAccent : Colors.blueAccent,
       body: Center(
        
         child: Column(
